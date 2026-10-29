@@ -1,5 +1,6 @@
 from pages.main_page import MainPage
 import time
+from pages.locators import MainPageLocators
 
 def test_guest_should_see_login_link(browser):
     link = "https://www.demoblaze.com/"
